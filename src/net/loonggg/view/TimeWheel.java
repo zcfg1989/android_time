@@ -163,7 +163,7 @@ public class TimeWheel extends LinearLayout {
 
 		case 2:
 			int hPosition = 0;
-			if (position <= 57 * itemHeight) {
+			if (position <= 59 * itemHeight) {
 				hPosition = position + 60 * itemHeight;
 				scrollview.scrollTo(0, hPosition);
 			} else if (position >= 120 * itemHeight) {
